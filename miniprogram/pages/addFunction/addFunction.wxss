@@ -1,3 +1,5 @@
 /* pages/addFunction/addFunction.wxss */
 
+
 @import "../../style/guide.wxss";
+@import "./addFunction.skeleton.wxss";

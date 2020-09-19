@@ -1,8 +1,9 @@
 <!--index.wxml-->
+<navigationBar default-data="{{defaultData}}"></navigationBar>
 <view class="container">
 
   <!-- 用户 openid -->
-  <view class="userinfo">
+  <view class="userinfo iconfont">
     <button 
       open-type="getUserInfo" 
       bindgetuserinfo="onGetUserInfo"

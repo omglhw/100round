@@ -12,12 +12,17 @@ exports.main = async (event, context) => {
 Page({
 
   data: {
+    loading: true,
     result: '',
     canIUseClipboard: wx.canIUse('setClipboardData'),
   },
 
   onLoad: function (options) {
-
+    setTimeout(() => {
+      this.setData({
+        loading: false
+      })
+    },2000)
   },
 
   copyCode: function() {

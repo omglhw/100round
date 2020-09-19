@@ -1,0 +1,43 @@
+<!--
+此文件为开发者工具生成，生成时间: 2020/9/19 下午5:15:20 
+使用方法：
+在 D:\test\miniprogram\100round\miniprogram\pages\addFunction\addFunction.wxml 引入模板
+
+```
+<import src="addFunction.skeleton.wxml"/>
+<template is="skeleton" wx-if="{{loading}}" />
+```
+
+在 D:\test\miniprogram\100round\miniprogram\pages\addFunction\addFunction.wxss 中引入样式
+```
+@import "./addFunction.skeleton.wxss";
+```
+
+更多详细信息可以参考文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/skeleton.html
+-->
+<template name="skeleton">
+  <view class="sk-container">
+    <view class="container">
+      <view class="list" style="border: none;">
+        <view class="list-item">
+          <text class="sk-transparent sk-text-34-0909-271 sk-text">测试云函数</text>
+        </view>
+        <view class="list-item" style="border: none;">
+          <text class="request-text sk-transparent sk-text-16-6667-593 sk-text">期望输出：{"sum":3}</text>
+        </view>
+      </view>
+      <view class="guide">
+        <text class="headline sk-transparent sk-text-8-8235-451 sk-text">新增云函数</text>
+        <text class="p sk-transparent sk-text-13-3333-761 sk-text">1. 在云函数根目录 cloudfunctions 上右键选择新建云函数，命名为 sum</text>
+        <text class="p sk-transparent sk-text-13-3333-92 sk-text">2. 在创建的 cloudfunctions/sum/index.js 文件中添加如下代码</text>
+        <image class="image1 sk-image" mode="widthFix" style="height: 90.4623px;"></image>
+        <button class="copyBtn sk-transparent sk-button sk-pseudo sk-pseudo-circle">复制代码</button>
+        <text class="p sk-transparent sk-text-13-3333-753 sk-text">3. 在 cloudfunctions/sum 目录上右键上传并部署</text>
+        <text class="p sk-transparent sk-text-13-3333-962 sk-text">4. 点击测试云函数测试</text>
+        <text class="p sk-transparent sk-text-13-3333-913 sk-text">5. 打开云开发云函数管理页，选择 sum 云函数</text>
+        <text class="p sk-transparent sk-text-13-3333-584 sk-text">6. 查看 sum 的调用日志</text>
+        <text class="p sk-transparent sk-text-13-3333-550 sk-text">进阶：可在云函数中使用 wx-server-sdk 操作数据库，文件存储和调用其他云函数，详见文档</text>
+      </view>
+    </view>
+  </view>
+</template>

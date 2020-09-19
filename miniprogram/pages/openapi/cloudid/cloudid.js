@@ -9,11 +9,14 @@ Page({
   onGetWeRunData() {
     wx.getWeRunData({
       success: res => {
+        console.log(' wx.cloud.CloudID(res.cloudID)', res.cloudID, wx.cloud.CloudID(res.cloudID))
         wx.cloud.callFunction({
           name: 'echo',
           data: {
             // info 字段在云函数 event 对象中会被自动替换为相应的敏感数据
-            info: wx.cloud.CloudID(res.cloudID),
+            testa: wx.cloud.CloudID(res.cloudID),
+            test: {cloudID: res.cloudID},
+            a: 'test'
           },
         }).then(res => {
           console.log('[onGetWeRunData] 收到 echo 回包：', res)

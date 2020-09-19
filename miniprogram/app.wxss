@@ -1,4 +1,5 @@
 /**app.wxss**/
+@import "style/icon.wxss";
 .container {
   display: flex;
   flex-direction: column;
@@ -154,3 +155,156 @@ page {
   line-height: 36rpx;
   word-break: break-all;
 }
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-user-card:before {
+  content: "\e640";
+}
+
+.icon-icon-nodata:before {
+  content: "\e619";
+}
+
+.icon-graphictext:before {
+  content: "\e618";
+}
+
+.icon-role-group:before {
+  content: "\e63e";
+}
+
+.icon-role:before {
+  content: "\e63f";
+}
+
+.icon-release:before {
+  content: "\e63d";
+}
+
+.icon-list:before {
+  content: "\e639";
+}
+
+.icon-phone:before {
+  content: "\e63a";
+}
+
+.icon-card:before {
+  content: "\e63b";
+}
+
+.icon-check:before {
+  content: "\e63c";
+}
+
+.icon-delete:before {
+  content: "\e636";
+}
+
+.icon-edit-o:before {
+  content: "\e637";
+}
+
+.icon-yunlianlogo:before {
+  content: "\e638";
+}
+
+.icon-dot:before {
+  content: "\e602";
+}
+
+.icon-xiangmu:before {
+  content: "\e635";
+}
+
+.icon-edit:before {
+  content: "\e631";
+}
+
+.icon-gongsi:before {
+  content: "\e632";
+}
+
+.icon-more:before {
+  content: "\e633";
+}
+
+.icon-add:before {
+  content: "\e634";
+}
+
+.icon-jituan:before {
+  content: "\e62f";
+}
+
+.icon-move:before {
+  content: "\e60c";
+}
+
+.icon-close:before {
+  content: "\e7e5";
+}
+
+.icon-add-user:before {
+  content: "\e617";
+}
+
+.icon-question:before {
+  content: "\e60b";
+}
+
+.icon-download:before {
+  content: "\e601";
+}
+
+.icon-upload:before {
+  content: "\e610";
+}
+
+.icon-question2:before {
+  content: "\e616";
+}
+
+.icon-exit-full-screen:before {
+  content: "\e630";
+}
+
+.icon-full-screen:before {
+  content: "\e604";
+}
+
+.icon-left-o:before {
+  content: "\e600";
+}
+
+.icon-feedback:before {
+  content: "\e606";
+}
+
+.icon-quit:before {
+  content: "\e607";
+}
+
+.icon-lock:before {
+  content: "\e608";
+}
+
+.icon-user:before {
+  content: "\e609";
+}
+
+.icon-online-service:before {
+  content: "\e605";
+}
+
+.icon-arrow-down:before {
+  content: "\e603";
+}
+
